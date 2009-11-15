@@ -5,7 +5,29 @@
     %link{:rel => "stylesheet", :href => "/screen.css"}
     %link{:rel => "shortcut icon", :href => "/favicon.ico", :type => "image/x-icon"}
   %body
-    %h1 nyruby
-    %p
-      :erb
-        <iframe width="700" height="700" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/?ie=UTF8&amp;t=p&amp;ll=43.245203,-76.179199&amp;spn=5.601667,7.69043&amp;z=7&amp;output=embed"></iframe>
+    %div.header
+      %h1 nyruby
+    %div.main
+      %div
+        :erb
+          <iframe width="400" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/?ie=UTF8&amp;t=p&amp;ll=43.245203,-76.179199&amp;spn=5.601667,7.69043&amp;z=6&amp;output=embed"></iframe>
+      %div
+        %h2 about
+        %p There should be a place for all New York Rubyists to get together, and nyruby is it. From Niagara Falls to Long Island, if you're a Ruby coder you belong here.
+        %h2 groups
+        %ul
+          %li
+            %a{:href => "http://wnyruby.com"} WNYRuby
+          %li
+            %a{:href => "http://rochesterrb.com"} Rochester.rb
+          %li
+            %a{:href => "http://www.techvalleyrb.org/"} Tech Valley Ruby Brigade
+          %li
+            %a{:href => "http://www.nycrb.org/"} NYC.rb
+        %h2 links
+        %ul
+          %li
+            %a{:href => "http://groups.google.com/group/nyruby"} Mailing List
+          %li
+            %a{:href => "http://rochesterrb.com"} Source Code
+

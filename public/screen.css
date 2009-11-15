@@ -31,7 +31,29 @@ h1 {
   margin-bottom: 25px;
 }
 
+h2 {
+  margin-top: 0;
+}
+
+div.main {
+  width: 840px;
+  margin: 0 auto;
+}
+
+div.main div {
+  float: left;
+  width: 400px;
+}
+
+div.main div:first-child {
+  margin-right: 40px;
+}
+
 p {
-  text-align: center;
-  margin: 0;
+  margin-bottom: 10px;
+}
+
+div.main div {
+  float: left;
+  width: 400px;
 }
