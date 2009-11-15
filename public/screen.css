@@ -1,0 +1,31 @@
+body {
+  font-family:'lucida grande', helvetica, arial, sans-serif;
+  background:#fff;
+  color:#212223;
+  margin:0;
+}
+
+small {
+  color:#333;
+}
+
+a, a:visited, a:link, a:hover {
+  color:#000;
+  text-decoration:none;
+}
+a:hover {
+  color:#fff;
+  background:#000;
+}
+
+h1 {
+  font-size:62px;
+  background:#001D3F;
+  color:#fff;
+  margin:0;
+  padding:20px 0;
+  text-align:center;
+  clear:left;
+  float:left;
+  width:100%;
+}
