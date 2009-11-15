@@ -22,10 +22,16 @@ h1 {
   font-size:62px;
   background:#001D3F;
   color:#fff;
-  margin:0;
   padding:20px 0;
   text-align:center;
   clear:left;
   float:left;
   width:100%;
+  margin-top: 0;
+  margin-bottom: 25px;
+}
+
+p {
+  text-align: center;
+  margin: 0;
 }
